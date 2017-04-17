@@ -163,9 +163,9 @@ names(studentMat)
 
 table(studentMat$internet)
 
-any(studentMat$g3 == 20)
+any(studentMat$G3 == 20)
 
-all(studentMat$g3 > 0)
+all(studentMat$G3 > 0)
 
 # Comprobamos que tal como dice la descripción del dataset, hay 382 estudiantes que aparecen en ambos
 # ficheros (matemáticas y portugués)
@@ -182,7 +182,7 @@ studentMatPor <- merge(studentMat,studentPor,
 dim(studentMatPor)[1]
 ```
 
-La máxima nota de la evaluación final es 19 para los estudiantes de matemáticas. Y todos los estudiantes tienen una nota mayor que 0.
+La máxima nota de la evaluación final es 20 para los estudiantes de matemáticas. Y no todos los estudiantes tienen una nota mayor que 0.
 
 No observamos NA's.
 
