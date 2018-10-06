@@ -1,5 +1,5 @@
 ---
-title: "UEMC_Ejemplo_Analisis_Exploratorio_R"
+title: "Ejemplo_Analisis_Exploratorio_R"
 author: "Isabel M. Izquierdo"
 date: "2 de abril de 2016"
 output: word_document
